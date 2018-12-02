@@ -25,5 +25,5 @@ devtools::install_github("ccchang0111/gPAM50")
 
 ## Tutorial
 
-Magics can be found here: https://ccchang0111.github.io/PAM50/PAM50/articles/PAM50_tutorial.html
+Magics can be found here: https://ccchang0111.github.io/PAM50/articles/PAM50_tutorial.html
 
