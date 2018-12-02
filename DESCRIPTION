@@ -1,0 +1,26 @@
+Package: PAM50
+Type: Package
+Title: Breast Cancer's PAM50 prediction based on patient's RNA-seq data
+Version: 0.2.3
+Authors@R: person("Andrew", "Chang", email = "ccchang0111@gmail.com", role = c("aut", "cre"))
+Description: PAM50 classifier based on RNA-seq data. Data can be either row-count or CPM.
+License: Roche Internal Use
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.4.2),
+    pamr (>= 1.55),
+    tidyverse (>= 1.2.1)
+Imports:
+    pheatmap,
+    RColorBrewer
+Suggests:
+    knitr,
+    rmarkdown,
+    Biobase,
+    testthat
+biocViews: Biobase, edgeR
+RoxygenNote: 6.1.1
+URL: https://github.com/ccchang0111/gPAM50
+BugReports: https://github.com/ccchang0111/PAM50/issues
+VignetteBuilder: knitr
