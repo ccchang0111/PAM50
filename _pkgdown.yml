@@ -1,0 +1,31 @@
+url: https://ccchang0111.github.io/PAM50/
+
+authors:
+  Andrew Chang:
+    href: https://github.com/changc25
+
+template:
+  params:
+    bootswatch: flatly
+
+navbar:
+    right:
+      - icon: fa-github
+        href: https://ccchang0111.github.io/PAM50/
+
+reference:
+  - title: The heart of PAM50
+    desc: Main function that creates magics.
+    contents:
+      - PAM50
+  - title: Plotting functions
+    desc: These help visualize PAM50 prediction and perform sanity check.
+    contents:
+     - plotValidationGenes
+     - plotPAM50
+  - title: Utilities
+    desc: These are some utility functions that you may need.
+    contents:
+      - extract_PAM50
+      - getPAM50rank
+      - getPAM50

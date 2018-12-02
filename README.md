@@ -10,7 +10,7 @@ Interestingly, even the patient is not breast cancer patient, gPAM50 can still p
 But why don't you give it a try? Maybe you will discovery novel pathway or genes. 
 
 
-Project page: https://pages.github.com/ccchang0111/PAM50/index.html
+Project page: https://ccchang0111.github.io/PAM50/
 
 Source code: https://github.com/ccchang0111/PAM50
 
@@ -25,5 +25,5 @@ devtools::install_github("ccchang0111/gPAM50")
 
 ## Tutorial
 
-Magics can be found here: https://pages.github.com/ccchang0111/PAM50/articles/PAM50_tutorial.html
+Magics can be found here: https://ccchang0111.github.io/PAM50/PAM50/articles/PAM50_tutorial.html
 

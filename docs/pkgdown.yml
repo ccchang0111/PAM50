@@ -1,5 +1,9 @@
 pandoc: 1.19.2.1
 pkgdown: 1.2.0
 pkgdown_sha: ~
-articles: []
+articles:
+  PAM50_tutorial: PAM50_tutorial.html
+urls:
+  reference: https://ccchang0111.github.io/PAM50//reference
+  article: https://ccchang0111.github.io/PAM50//articles
 

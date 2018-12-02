@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Breast Cancer's PAM50 prediction based on patient's RNA-seq data • PAM50</title>
-<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous">
+<!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><!-- Bootstrap --><link href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- sticky kit --><script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="Breast Cancer's PAM50 prediction based on patient's RNA-seq data">
@@ -60,8 +60,8 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/ccchang0111/gPAM50">
-    <span class="fa fa-github fa-lg"></span>
+  <a href="https://ccchang0111.github.io/PAM50/">
+    <span class="fa fa-github"></span>
      
   </a>
 </li>
@@ -81,7 +81,7 @@
 <a href="#pam50" class="anchor"></a>PAM50</h1></div>
 <p>PAM50 package is a trained classifier that predicts PAM50 subtypes using patient’s own gene expression data (NanoString, microarray, or RNA-seq). It can predict 5 subtypes for breast cancer patients: <strong>Luminal A</strong>, <strong>Luminal B</strong>, <strong>HER2</strong>, <strong>Basal</strong>, and <strong>Normal</strong>. Patients with Luminal A subtype usually have the best prognosis. Click <a href="https://ww5.komen.org/BreastCancer/SubtypesofBreastCancer.html">here</a> for more detailed description of each subtype.</p>
 <p>gPAM50 uses 50 genes to make the prediction. As long as a patient has those 50 genes’ expression data and Gene ID (Entrez ID), you can then predict PAM50 subtype for that patient. <strong>Yes, it works for a single patient’s data!</strong> Interestingly, even the patient is not breast cancer patient, gPAM50 can still produce a prediction which may or may not be meaningful. But why don’t you give it a try? Maybe you will discovery novel pathway or genes.</p>
-<p>Project page: <a href="https://pages.github.com/ccchang0111/PAM50/index.html" class="uri">https://pages.github.com/ccchang0111/PAM50/index.html</a></p>
+<p>Project page: <a href="https://ccchang0111.github.io/PAM50/" class="uri">https://ccchang0111.github.io/PAM50/</a></p>
 <p>Source code: <a href="https://github.com/ccchang0111/PAM50" class="uri">https://github.com/ccchang0111/PAM50</a></p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
@@ -93,7 +93,7 @@ devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumen
 <div id="tutorial" class="section level2">
 <h2 class="hasAnchor">
 <a href="#tutorial" class="anchor"></a>Tutorial</h2>
-<p>Magics can be found here: <a href="https://pages.github.com/ccchang0111/PAM50/articles/PAM50_tutorial.html" class="uri">https://pages.github.com/ccchang0111/PAM50/articles/PAM50_tutorial.html</a></p>
+<p>Magics can be found here: <a href="https://ccchang0111.github.io/PAM50/PAM50/articles/PAM50_tutorial.html" class="uri">https://ccchang0111.github.io/PAM50/PAM50/articles/PAM50_tutorial.html</a></p>
 </div>
 </div>
   </div>
@@ -117,7 +117,8 @@ devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumen
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
-<li>Andrew Chang <br><small class="roles"> Author, maintainer </small>  </li>
+<li>
+<a href="https://github.com/changc25">Andrew Chang</a> <br><small class="roles"> Author, maintainer </small>  </li>
 </ul>
 </div>
 
@@ -126,7 +127,7 @@ devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumen
 
 
       <footer><div class="copyright">
-  <p>Developed by Andrew Chang.</p>
+  <p>Developed by <a href="https://github.com/changc25">Andrew Chang</a>.</p>
 </div>
 
 <div class="pkgdown">
